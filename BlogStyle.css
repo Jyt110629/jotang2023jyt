@@ -1,0 +1,112 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url(R-C\ \(1\).jpg);
+    
+  }
+  /*导航*/
+  
+  nav {
+    background-color: greenyellow;
+    padding: 10px;
+    height: 30px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-family:Georgia, serif ;
+    
+    
+  }
+ 
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    padding-left: 40px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  .content {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size-adjust: inherit;
+  }
+  
+   div{
+    padding: 20px;
+  }
+
+  #myself{
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  
+ 
+  
+  /* 照片墙样式 */
+  .photo {
+    display: inline-block;
+    margin: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  .photo img {
+    width: 200px;
+    height: 200px;
+  }
+ 
+  
+  /* 文章样式 */
+  article {
+    margin-bottom: 20px;
+    margin: 30px;
+    padding :30px;
+    
+  }
+
+  h3{
+    font-weight: 900;
+  }
+
+  .passage{
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  
+  article h3 {
+    margin: 0;
+  }
+  
+  article p {
+    margin-top: 10px;
+  }
+  /*时间*/
+  .time{
+    padding:10px;
+    width: 160px;
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    height: 20px;
+    text-align: center;
+  }
